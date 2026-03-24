@@ -1,0 +1,25 @@
+::ng-deep {
+    .left-menu {
+        p-panelmenu.p-panelmenu {
+            height: 100vh;
+            background: #EDE6E640;
+            padding: 55px 0 40px 0;
+            border: 0;
+            max-width: 214px;
+        }
+    }
+}
+
+::ng-deep {
+  .active-menu-item > a {
+    border-radius: 5px;
+    background-color: var(--primary-left-menu-active) !important;
+    color:  var(--text-active) !important;
+  }
+}
+
+a.active-menu-item {
+    border-radius: 5px;
+    background-color: var(--primary-left-menu-active) !important;
+    color:  var(--text-active) !important;
+}

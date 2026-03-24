@@ -1,0 +1,13 @@
+@use 'styles/variables' as *;
+@use 'styles/p-menu.scss' as *;
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  // background: var(--surface-ground);
+  // color: var(--text-color);
+}

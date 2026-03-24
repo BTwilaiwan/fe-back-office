@@ -1,0 +1,10 @@
+{
+    "LEFTMENU": {
+        "PRODUCT": "Product Management",
+        "STOCK": "Stock Management"
+    },
+
+    "PRODUCT": {
+        "PRODUCTLIST": "Product List"
+    } 
+}
