@@ -6,6 +6,7 @@ import { MenuItem } from 'primeng/api';
 
 @Component({
   selector: 'app-left-menu',
+  standalone: true,  
   imports: [ PanelMenuModule, RouterModule ],
   templateUrl: './left-menu.html',
   styleUrl: './left-menu.scss',

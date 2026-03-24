@@ -15,7 +15,7 @@ import { ButtonModule } from 'primeng/button';
 import { CardModule } from 'primeng/card';
 
 // --- Angular Common ---
-import { CommonModule } from '@angular/common';
+import { AsyncPipe, CommonModule, NgIf } from '@angular/common';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
  
@@ -23,7 +23,7 @@ import { RouterModule } from '@angular/router';
 // --- Translate ---
 import { TranslateModule } from '@ngx-translate/core';
 
-export const DEFAULTMODULES = [
+export const DefaultModules = [
     CommonModule,
     ReactiveFormsModule,
     FormsModule,
@@ -39,5 +39,7 @@ export const DEFAULTMODULES = [
     TextareaModule,
     InputNumberModule,
     InputTextModule,
-    TranslateModule
+    TranslateModule,
+    AsyncPipe,
+    NgIf
 ]

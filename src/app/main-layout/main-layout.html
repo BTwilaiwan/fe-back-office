@@ -1,3 +1,11 @@
+<ng-container *ngIf="loadingService.isLoading$ | async">
+  <p-blockUI [blocked]="(loadingService.isLoading$ | async) ?? false" [baseZIndex]="3000" appendTo="self">
+    <div class="blockui-center">
+        <p-progress-spinner strokeWidth="8" fill="transparent" animationDuration=".5s" />
+    </div>
+  </p-blockUI>
+</ng-container>
+
 <div class="layout">
   <div class="sidebar">
     <app-left-menu></app-left-menu>
